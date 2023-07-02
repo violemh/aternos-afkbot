@@ -14,8 +14,8 @@ var host = data["ip"];
 var port = data["port"];
 var username = data["name"]
 var bot = mineflayer.createBot({
-  host: lazbcudh.aternos.me,
-  port: 54464,
+  host: host,
+  port: port,
   username: username
 });
 function getRandomArbitrary(min, max) {
